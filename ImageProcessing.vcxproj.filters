@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\selecting\BitMask.cpp" />
+    <ClCompile Include="src\selecting\RootSelector.cpp" />
+    <ClCompile Include="src\selecting\Selection.cpp" />
+    <ClCompile Include="src\selecting\Selector.cpp" />
+    <ClCompile Include="src\image\Bitmap.cpp" />
+    <ClCompile Include="src\image\Image.cpp" />
+    <ClCompile Include="src\image\Pixel.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\utils\file_utils\FileReader.cpp" />
+    <ClCompile Include="src\utils\file_utils\FileWriter.cpp" />
+    <ClCompile Include="src\Mask.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{eb90a45b-c296-4620-8a3b-67af93df2f29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\selecting\BitMask.h" />
+    <ClInclude Include="src\selecting\RootSelector.h" />
+    <ClInclude Include="src\selecting\Selection.h" />
+    <ClInclude Include="src\selecting\Selector.h" />
+    <ClInclude Include="src\image\Bitmap.h" />
+    <ClInclude Include="src\image\Image.h" />
+    <ClInclude Include="src\image\Pixel.h" />
+    <ClInclude Include="src\utils\file_utils\file_utils_commons.h" />
+    <ClInclude Include="src\utils\file_utils\FileReader.h" />
+    <ClInclude Include="src\utils\file_utils\FileWriter.h" />
+    <ClInclude Include="src\utils\data.h" />
+    <ClInclude Include="src\utils\data_viewing.h" />
+    <ClInclude Include="src\utils\fileutils.h" />
+    <ClInclude Include="src\Mask.h" />
+    <ClInclude Include="src\image\transforming\image_transform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test_resources\Text.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap-test.bmp" />
+  </ItemGroup>
+</Project>
